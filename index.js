@@ -9,14 +9,11 @@ module.exports = function(scope, router){
     }
 
     for(var key in router){
-        if(
-            !router.hasOwnProperty(key) ||
-            typeof router[key] !== 'function'
-        ){
+        if(typeof router[key] !== 'function'){
             continue;
         }
 
-        scope.url[key] = createLocationFunction(key);
+        scope.router[key] = createRouterFunction(key);
     }
 
     // Add the routers homeRoute string to the gel router function

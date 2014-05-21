@@ -1,0 +1,19 @@
+{
+  "name": "gel-route-tree",
+  "version": "0.0.1",
+  "description": "route-tree functions for gel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KoryNunn/gel-route-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/gel-route-tree/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/gel-route-tree"
+}

@@ -10,7 +10,7 @@ module.exports = function(scope, router){
 
     for(var key in router){
         if(
-            !window.location.hasOwnProperty(key) ||
+            !router.hasOwnProperty(key) ||
             typeof window.location[key] !== 'function'
         ){
             continue;

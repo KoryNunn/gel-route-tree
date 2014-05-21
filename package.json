@@ -1,6 +1,6 @@
 {
   "name": "gel-route-tree",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "route-tree functions for gel",
   "main": "index.js",
   "scripts": {

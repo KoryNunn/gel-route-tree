@@ -1,5 +1,5 @@
 module.exports = function(scope, router){
-    app.gaffa.gedi.gel.scope.router = {};
+    scope.router = {};
 
     function createRouterFunction(key){
         return function(scope, args){
